@@ -13,7 +13,7 @@ A 3D interactive visualization of a black hole and supernova, built with React, 
 
 1. Clone this repository:
    ```sh
-   git clone [https://github.com/your-username/black-hole-3d.git](https://github.com/daleex/black-hole.git)
+   git clone https://github.com/daleex/black-hole.git
    cd black-hole-3d
    ```
 
