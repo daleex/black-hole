@@ -1,6 +1,6 @@
-# Black Hole 3D
+# Black Hole
 
-A 3D interactive visualization of a black hole and supernova, built with React, Three.js, and @react-three/fiber.
+An interactive visualization of a black hole and supernova, built with React, Three.js, and @react-three/fiber.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ A 3D interactive visualization of a black hole and supernova, built with React, 
 1. Clone this repository:
    ```sh
    git clone https://github.com/daleex/black-hole.git
-   cd black-hole-3d
+   cd black-hole
    ```
 
 2. Install dependencies:
