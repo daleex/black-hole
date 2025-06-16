@@ -235,20 +235,6 @@ function Starfield({ visible }) {
   );
 }
 
-function NarrativeText({ text }) {
-  return (
-    <Text
-      position={[0, -8, 0]}
-      fontSize={1.2}
-      color="white"
-      maxWidth={60}
-      lineHeight={1.5}
-      textAlign="center"
-    >
-      {text}
-    </Text>
-  );
-}
 
 function Scene() {
   const scroll = useScroll();
@@ -376,13 +362,6 @@ function Scene() {
 });
 
 
-  const texts = {
-    intro: 'Ti stai avvicinando allo spazio profondo...',
-    star: 'Ecco la stella in lontananza...',
-    explosion: 'La stella esplode in una supernova!',
-    blackhole: 'Sta emergendo un buco nero...',
-    inside: 'Sei dentro il buco nero. Il tempo si piega...',
-  };
 
   return (
     <group ref={group}>
@@ -390,7 +369,6 @@ function Scene() {
       <Star phase={phase} />
       <Supernova trigger={exploded} />
       <BlackHole visible={showBlackHole} scale={blackHoleScale} />
-      <NarrativeText text={texts[phase]} />
     </group>
   );
 }
